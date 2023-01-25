@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="ADT\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ADT\" />
+  </ItemGroup>
 </Project>
